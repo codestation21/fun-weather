@@ -1,0 +1,145 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+    .nav_links ul li {
+        margin: 0 10px;
+    }
+    .nav_social ul li {
+        margin-left: 18px;
+    }
+    .home_body_content h2 {
+        font-size: 40px;
+    }
+    .hi-slide.testi_slider {
+        width: 75.5%;
+    }
+    .sticy_logo img {
+        width: 110%;
+        margin-top: 6px;
+    }
+    .footer_social ul li {
+        margin-left: 19px;
+    }
+
+}
+@media (max-width: 991px) {
+    .nav_social {
+        width: 25%;
+        float: right;
+    }
+    .logo_area {
+        width: 25%;
+        float: left;
+    }
+    .mobile_bar{
+        width: 33%;
+        float: left;
+        display: block;
+    }
+    .mobile_bar_icon {
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        width: 7%;
+        text-align: center;
+    }
+    .sticky_nav .mobile_bar_icon {
+        color: #000000ba;
+    }
+    .nav_links {
+        position: absolute;
+        top: 100%;
+        background: white;
+        left: 0;
+        width: 100%;
+        text-align: left;
+        padding-left: 5rem;
+        display: none;
+    }
+    .nav_links ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+    .nav_links ul li a:after {
+        display: none !important;
+    }
+    .nav_links ul li:after {
+        display: none;
+    }
+    .nav_links ul li a{
+        color: black;
+    }
+    .home_body_content h2 {
+        font-size: 27px;
+    }
+    .features_icon {
+        width: 32%;
+    }
+    .hi-slide.testi_slider {
+        width: 79.5%;
+    }
+    .down_img {
+        margin-top: 114px;
+    }
+}
+@media  (max-width: 768px) {
+    .nav_social ul li {
+        margin-left: 4px;
+    }
+    .sticy_logo img {
+        width: 100%;
+    }
+    .mobile_bar {
+        width: 20%;
+    }
+    .logo_area {
+        width: 50%;
+    }
+    .slide_sction {
+        display: none;
+    }
+
+}
+@media (max-width: 479px) {
+    nav {
+        padding: 1.5rem 1.5rem;
+    }
+}
+
+
+
+
+
+@media (max-width: 400px) {
+    .home_absolute {
+        display: none;
+    }
+    .shot_02_sunny {
+        display: none;
+    }
+    .shot_01_15 {
+        display: none;
+    }
+    .shot_01_cloudy {
+        display: none;
+    }
+    .shot_02_20 {
+        display: none;
+    }
+    .shot_03_rainy {
+        display: none;
+    }
+    .shot_03_9 {
+        display: none;
+    }
+
+}
+
+@media (max-width: 320px) {
+    html {
+        font-size: 60.5%;
+    }
+
+
+}
+
+
+
